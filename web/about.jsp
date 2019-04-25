@@ -1,25 +1,7 @@
 <%@ include file="header.html" %>
 <!--about-->
 <div class="about">
-	<div class="container">
-		<div class="about-in">
-			<div class="about-top">
-				<h1>About</h1>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-			</div>
-			<div class="col-md-9 grid-ab">
-				<div class="about-middle">
-					<div class="col-md-5">
-						<img class="img-responsive" src="images/ab.jpg" />
-					</div>
-					<div class="col-md-7 mid-about">
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
-					But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>
+
 				<div class="col-md-3 about-1">
 					<ul >
 						<li><a href="single.html">Lorem Ipsum is simply</a></li>
@@ -139,12 +121,6 @@
 	       			$('.example1').wmuSlider();         
 	   		     </script> 	           	         
 
-							 <!---->
-
-		<!---->
-		<!---
-		
-		<!---->
 	</div>
 	</div>
 

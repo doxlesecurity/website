@@ -1,31 +1,6 @@
 <%@ include file="header.html" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-	<div class="container">
-		<div class="logo">
-		<a href="index.html"><img src="images/logo.png" alt=""></a>
-		</div>
-		<div class="top-nav">
-				<span class="menu"><img src="images/menu.png" alt="">  </span>
-					<ul>
-						<li class="active"><a href="index.html" > Home </a></li>
-						<li><a href="about.html" > About </a></li>
-						<li><a href="typo.html" > Typo</a></li>
-						<li><a href="services.html" >Services</a></li>						
-						<li><a href="contact.html" >Contact</a></li>
-					<div class="clearfix"> </div>
-					</ul>
-					<script>
-						$("span.menu").click(function(){
-							$(".top-nav ul").slideToggle(500, function(){
-							});
-						});
-					</script>
-				</div>	
-<div class="clearfix"></div>				
-	</div>
-</div>
-<!--//header-->
-<!--content-->
+
 <div class="container">
 	<div class="page">
 		<!--button-->

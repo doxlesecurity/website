@@ -1,31 +1,6 @@
 <%@ include file="header.html" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-	<div class="container">
-		<div class="logo">
-		<a href="index.html"><img src="images/logo.png" alt=""></a>
-		</div>
-		<div class="top-nav">
-				<span class="menu"><img src="images/menu.png" alt="">  </span>
-					<ul>
-						<li class="active"><a href="index.html" > Home </a></li>
-						<li><a href="about.html" > About </a></li>
-						<li><a href="typo.html" > Typo</a></li>
-						<li><a href="services.html" >Services</a></li>						
-						<li><a href="contact.html" >Contact</a></li>
-					<div class="clearfix"> </div>
-					</ul>
-					<script>
-						$("span.menu").click(function(){
-							$(".top-nav ul").slideToggle(500, function(){
-							});
-						});
-					</script>
-				</div>	
-<div class="clearfix"></div>				
-	</div>
-</div>
-<!--//header-->
-<!--content-->
+	
 	<div class="contact">
 		<div class="container">
 	<div class="contact-top">
@@ -68,23 +43,5 @@
 			
 		</div>
 </div>
-		<!--footer-->
-		<div class="footer">
-			<div class="container">
-				<div class="footer-top">
-					<a href="#"><i class="glyphicon glyphicon-envelope"></i></a>
-					<p class="footer-in">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain </p>
-					 <p class="footer-class"> © 2015 Armor All Rights Reserved | Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
-					<ul class="social">
-						<li><a href="#"><i> </i></a></li>						
-						<li><a href="#"><i class="rss"> </i></a></li>
-						<li><a href="#"><i class="twitter"> </i></a></li>
-						<li><a href="#"><i class="dribble"> </i></a></li>
-						<li><a href="#"><i class="linked"> </i></a></li>
-						<li><a href="#"><i class="camera"> </i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<!--//footer-->
+		
 <%@ include file="footer.html" %>
