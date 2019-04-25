@@ -21,18 +21,17 @@
 						</div>
 					</form>
 				</div>
-				<div class="col-md-4 contact-in">
+                                <%--	<div class="col-md-4 contact-in">
 						<div class="map">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37494223.23909492!2d103!3d55!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x453c569a896724fb%3A0x1409fdf86611f613!2sRussia!5e0!3m2!1sen!2sin!4v1415776049771"></iframe>
-			</div>
+</div> --%>
 						<div class="address-more">
 						
 						<h4>Address</h4>
-							<p>The company name,</p>
-							<p>Lorem ipsum dolor,</p>
-							<p>Tel:1115550001</p>
-							<p>Fax:190-4509-494</p>
-							<p>Email:<a href="mailto:contact@example.com"> contact@example.com</a></p>
+							<p>Doxle Security</p>
+							<p>Manukau, Auckland 2102</p>
+							<p>Tel:09 600 2515</p>
+							<p>Mobile: 022 1719 620</p>
+							<p>Email:<a href="mailto:info@doxlesecurity.com">info@doxlesecurity.com</a></p>
 						</div>
 					
 				</div>
