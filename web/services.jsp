@@ -116,4 +116,4 @@
 		<!---->
 	</div>
 	</div>
-<%@ include file="header.html" %>
+<%@ include file="footer.html" %>
