@@ -34,13 +34,13 @@ h1,h2,h3,h4,h5,h6,p,label{
 .header{
 	background: url(../images/1.jpg) no-repeat;
 	width:100%;
-	display:block;
-	height:690px;
-	  background-size: cover;
+        display:compact;
+	height:300px;
+	  background-size:cover;
 }
 .header-top {
-  background: #1b3e5c;
-  padding: 2em 0;
+  background: #620c0d;
+  padding: 1.8em 0;
 }
 .logo{
 	float:left;
@@ -407,7 +407,7 @@ a.wmuSliderNext,a.wmuSliderPrev {
 }
 /*--footer--*/
 .footer{
-	background: #1b3e5c;
+        background: #620c0d;
 	padding: 3em 0;
 	text-align: center;
 }
