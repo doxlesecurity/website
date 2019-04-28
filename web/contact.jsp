@@ -5,9 +5,7 @@
 		<div class="container">
 	<div class="contact-top">
 				<h1>Contact</h1>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-		</div>
-			<div class="contact-form">
+					<div class="contact-form">
 				<div class="col-md-8 contact-grid">
 					<form>	
 						<input type="text" value="Name" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Name';}">
@@ -21,6 +19,8 @@
 						</div>
 					</form>
 				</div>
+		</div>
+			
                                 <%--	<div class="col-md-4 contact-in">
 						<div class="map">
 </div> --%>
