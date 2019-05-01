@@ -5,15 +5,26 @@
 	<div class="contact-form">
 				<div class="col-md-8 contact-grid">
 					<form>	
-						<input type="text" value="Name" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Name';}">
+						Name <input type="text" value="Full Name">
 					
-						<input type="text" value="Email" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Email';}">
-						<input type="text" value="Subject" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Subject';}">
+						Email <input type="text" value="Email">
+						Phone <input type="text" value="Subject">
 						
-						<textarea cols="77" rows="6" value=" " onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+                                                Date of Availability <input type="date" this.value ="Date of availability">
+                                                <br/>
+						Upload Resume <form action="fileupload.jsp" method="post" enctype="multipart/form-data"/>
+                                                <input type="file" name="file" size="50" />
+                                                <br />
+                                                <input type="submit" value="Upload File" /> <br /> <br />
+                                                Upload Security License <form action="fileupload.jsp" method="post" enctype="multipart/form-data"/>
+                                                <input type="file" name="file" size="50" />
+                                                <br />
+                                                <input type="submit" value="Upload File" /><br />
+                                                <br />
 						<div class="send">
-							<input type="submit" value="Send">
+							<input type="submit" value="Send"><br />
 						</div>
+                                                <br />
 					</form>
 				</div>
 		
