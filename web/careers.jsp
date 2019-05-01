@@ -4,9 +4,9 @@
 	<div class="container">
 	<div class="contact-form">
 				<div class="col-md-8 contact-grid">
-					<form>	
+					<form method="post" action="process.jsp">	
 						Name <input type="text" value="Full Name">
-					
+                                                <a href="js/fileupload.jsp"></a>
 						Email <input type="text" value="Email">
 						Phone <input type="text" value="Subject">
 						
