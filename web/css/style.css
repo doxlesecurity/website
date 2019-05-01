@@ -203,12 +203,12 @@ i.glyphicon.glyphicon-ok-sign {
 }
 .top-content h1 {
   font-size: 3em;
-  color: #1B3E5C;
+  color: #620C0D;
   font-family: 'Scada-Bold';
 }
 .top-content p {
   font-size: 1em;
-  color: #B4B2B2;
+   color: #00000;
   line-height: 1.9em;
 }
 .grid-top {
@@ -915,7 +915,7 @@ ul.grid-part {
   margin-top: 2em;
 }
 .grid-top {
-  float: left;
+  float: center;
   width: 50%;
 }
 .sed-top {
