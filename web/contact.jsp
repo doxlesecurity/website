@@ -7,13 +7,12 @@
 				<h1>Contact</h1>
 					<div class="contact-form">
 				<div class="col-md-8 contact-grid">
-					<form>	
-						<input type="text" value="Name" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Name';}">
-					
-						<input type="text" value="Email" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Email';}">
-						<input type="text" value="Subject" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Subject';}">
+					<form  method="post" action="contactproc.jsp">	
+						<input type="text" value="Name" name="name" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Name';}">
+						<input type="text" value="Email" name="email" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Email';}">
+						<input type="text" value="Subject" name="subject" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Subject';}">
 						
-						<textarea cols="77" rows="6" value=" " onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+						<textarea cols="77" rows="6" name="message" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
 						<div class="send">
 							<input type="submit" value="Send">
 						</div>
