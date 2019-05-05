@@ -8,7 +8,7 @@
 						Name <input type="text" value="Full Name">
                                                 <a href="js/fileupload.jsp"></a>
 						Email <input type="text" value="Email">
-						Phone <input type="text" value="Subject">
+						Phone <input type="text" value="Phone">
 						
                                                 Date of Availability <input type="date" this.value ="Date of availability">
                                                 <br/>

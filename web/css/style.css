@@ -531,6 +531,10 @@ p.footer-class a:hover{
 .address-more {
   padding: 1em 0 0;
 }
+.careers p{
+    padding: 1em 0 0;
+    text-align: left;
+}
 .contact-in p{
 	font-size:1.1em;
 	color: #B4B2B2;
